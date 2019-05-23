@@ -1,0 +1,10 @@
+[ignore]
+[include]
+node_modules/
+[libs]
+flow-typed
+
+[options]
+module.name_mapper='.*\.scss$' -> '<PROJECT_ROOT>/stub/cssStub.js'
+module.name_mapper='.*\.css$' -> '<PROJECT_ROOT>/stub/cssStub.js'
+module.name_mapper='.*\.\(svg\|png\|jpg\|gif\)$' -> '<PROJECT_ROOT>/stub/fileStub.js'

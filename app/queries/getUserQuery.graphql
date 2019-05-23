@@ -1,0 +1,22 @@
+query getUserQuery{
+    user_manager{
+        me{
+            info
+            user_networks{
+                network_id
+                network_name
+            }
+            user_products(catalog: true) {
+                id
+                name
+                description
+                logo
+                url
+                networks{
+                    network_id
+                    network_name
+                }
+            }
+        }
+    }
+}

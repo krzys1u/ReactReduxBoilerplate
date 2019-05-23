@@ -1,0 +1,3 @@
+* ToDo
+    * Styles per component instead of on big scss
+    * Tests, tests, tests everywhere...
